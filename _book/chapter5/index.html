@@ -1,0 +1,434 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>5.SVG渐变色 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chapter6/" />
+    
+    
+    <link rel="prev" href="../chapter4/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter1/">
+            
+                <a href="../chapter1/">
+            
+                    
+                    1.SVG 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter2/">
+            
+                <a href="../chapter2/">
+            
+                    
+                    2.SVG坐标系简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chapter3/">
+            
+                <a href="../chapter3/">
+            
+                    
+                    3.SVG基本形状
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter4/">
+            
+                <a href="../chapter4/">
+            
+                    
+                    4.SVG基本属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    5.SVG渐变色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../chapter6/">
+            
+                <a href="../chapter6/">
+            
+                    
+                    6.SVG文字文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../chapter7/">
+            
+                <a href="../chapter7/">
+            
+                    
+                    7.SVG基础变形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../chapter8/">
+            
+                <a href="../chapter8/">
+            
+                    
+                    8.SVG剪切和遮罩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../chapter9/">
+            
+                <a href="../chapter9/">
+            
+                    
+                    9.SVG滤镜简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >5.SVG渐变色</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="svg&#x6E10;&#x53D8;&#x8272;">SVG&#x6E10;&#x53D8;&#x8272;</h1>
+<p>&#x6E10;&#x53D8;&#x8272;&#x662F;&#x6307;&#x4ECE;&#x4E00;&#x79CD;&#x989C;&#x8272;&#x5E73;&#x6ED1;&#x7684;&#x8FC7;&#x6E21;&#x5230;&#x53E6;&#x5916;&#x4E00;&#x79CD;&#x989C;&#x8272;&#x3002;&#x7EBF;&#x6027;&#x6E10;&#x53D8;&#x8272; Linear
+&#x8F90;&#x5C04;&#x5F0F;(&#x653E;&#x5C04;&#x5F0F;)&#x6E10;&#x53D8;&#x8272; Radial.</p>
+<h2 id="&#x7EBF;&#x6027;&#x6E10;&#x53D8;">&#x7EBF;&#x6027;&#x6E10;&#x53D8;</h2>
+<p>&#x8981;&#x63D2;&#x5165;&#x4E00;&#x4E2A;&#x7EBF;&#x6027;&#x6E10;&#x53D8;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x5728;SVG&#x6587;&#x4EF6;&#x7684;defs&#x5143;&#x7D20;&#x5185;&#x90E8;&#xFF0C;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;linearGradient&#x3002;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">svg</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;400&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;160&quot;</span> <span class="hljs-attr">version</span>=<span class="hljs-string">&quot;1.1&quot;</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.w3.org/2000/svg&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">defs</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">linearGradient</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;grad1&quot;</span> <span class="hljs-attr">x1</span>=<span class="hljs-string">&quot;0%&quot;</span> <span class="hljs-attr">y1</span>=<span class="hljs-string">&quot;0%&quot;</span> <span class="hljs-attr">x2</span>=<span class="hljs-string">&quot;100%&quot;</span> <span class="hljs-attr">y2</span>=<span class="hljs-string">&quot;0%&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">stop</span> <span class="hljs-attr">offset</span>=<span class="hljs-string">&quot;0%&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;stop-color:rgb(255,255,0);stop-opacity:1&quot;</span> /&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">stop</span> <span class="hljs-attr">offset</span>=<span class="hljs-string">&quot;100%&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;stop-color:rgb(255,0,0);stop-opacity:1&quot;</span> /&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">linearGradient</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">defs</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">defs</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">linearGradient</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;grad2&quot;</span> <span class="hljs-attr">x1</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">y1</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">x2</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">y2</span>=<span class="hljs-string">&quot;1&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">stop</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;stop1&quot;</span> <span class="hljs-attr">offset</span>=<span class="hljs-string">&quot;0%&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">stop</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;stop2&quot;</span> <span class="hljs-attr">offset</span>=<span class="hljs-string">&quot;100%&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">linearGradient</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/css&quot;</span>&gt;</span><span class="xml">&lt;![CDATA[#rect { fill: url(#grad2); }
+      .stop1 { stop-color: yellow; }
+      .stop2 { stop-color: red; }]]&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">defs</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ellipse</span> <span class="hljs-attr">cx</span>=<span class="hljs-string">&quot;200&quot;</span> <span class="hljs-attr">cy</span>=<span class="hljs-string">&quot;70&quot;</span> <span class="hljs-attr">rx</span>=<span class="hljs-string">&quot;85&quot;</span> <span class="hljs-attr">ry</span>=<span class="hljs-string">&quot;55&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;url(#grad1)&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">rect</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;rect&quot;</span> <span class="hljs-attr">x</span>=<span class="hljs-string">&quot;10&quot;</span> <span class="hljs-attr">y</span>=<span class="hljs-string">&quot;10&quot;</span> <span class="hljs-attr">rx</span>=<span class="hljs-string">&quot;15&quot;</span> <span class="hljs-attr">ry</span>=<span class="hljs-string">&quot;15&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;100&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
+</code></pre>
+<svg width="400" height="160" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <lineargradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+    </lineargradient>
+  </defs>
+  <defs>
+    <lineargradient id="grad2" x1="0" y1="0" x2="0" y2="1">
+    <stop class="stop1" offset="0%"/>
+    <stop class="stop2" offset="100%"/>
+    </lineargradient>
+    <style type="text/css"><![CDATA[#rect { fill: url(#grad2); }
+      .stop1 { stop-color: yellow; }
+      .stop2 { stop-color: red; }]]></style>
+  </defs>
+  <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)"/>
+  <rect id="rect" x="10" y="10" rx="15" ry="15" width="100" height="100"/>
+</svg>
+
+<p>linearGradient&#x6807;&#x8BB0;&#x7684;id&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x8FD9;&#x4E2A;&#x6E10;&#x53D8;&#x8272;&#x7684;&#x552F;&#x4E00;&#x6807;&#x5FD7;,&#x6BCF;&#x79CD;&#x989C;&#x8272;&#x90FD;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;stop&#x6807;&#x8BB0;&#x5B9A;&#x4E49;,offset&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;,
+stop-color&#x7528;&#x6765;&#x6307;&#x5B9A;&#x989C;&#x8272;,stop-opacity&#x900F;&#x660E;&#x5EA6;&#x3002;&#x6E10;&#x53D8;&#x7684;&#x65B9;&#x5411;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E24;&#x4E2A;&#x70B9;&#x6765;&#x63A7;&#x5236;&#xFF0C;&#x5B83;&#x4EEC;&#x5206;&#x522B;&#x662F;&#x5C5E;&#x6027;x1&#x3001;x2&#x3001;y1&#x548C;y2,
+&#x8FD9;&#x4E9B;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x6E10;&#x53D8;&#x8DEF;&#x7EBF;&#x8D70;&#x5411;&#x3002;fill&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x9700;&#x8981;&#x5F15;&#x7528;&#x7684;&#x6E10;&#x53D8;&#x8272;&#x7684;ID&#x3002;&#x5C06;&#x5C5E;&#x6027;fill&#x8BBE;&#x7F6E;&#x4E3A;url(#grad1)&#x3002;</p>
+<h2 id="&#x5F84;&#x5411;&#x6E10;&#x53D8;">&#x5F84;&#x5411;&#x6E10;&#x53D8;</h2>
+<p>&#x5F84;&#x5411;&#x6E10;&#x53D8;&#x4E0E;&#x7EBF;&#x6027;&#x6E10;&#x53D8;&#x76F8;&#x4F3C;&#xFF0C;&#x53EA;&#x662F;&#x5B83;&#x662F;&#x4ECE;&#x4E00;&#x4E2A;&#x70B9;&#x5F00;&#x59CB;&#x53D1;&#x6563;&#x7ED8;&#x5236;&#x6E10;&#x53D8;,&#x521B;&#x5EFA;&#x5F84;&#x5411;&#x6E10;&#x53D8;&#x9700;&#x8981;&#x5728;&#x6587;&#x6863;&#x7684;defs&#x4E2D;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;radialGradient&#x3002;</p>
+<svg width="520" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+      <radialgradient id="RadialGradient1" cx="0.5" cy="0.5" r="1">
+        <stop offset="0%" stop-color="red" stop-opacity="0.8"/>
+        <stop offset="100%" stop-color="yellow" stop-opacity="0.8"/>
+      </radialgradient>
+      <radialgradient id="RadialGradient2" cx="0.25" cy="0.25" r="0.25">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+      </radialgradient>
+      <radialgradient id="GradientPad" cx="0.5" cy="0.5" r="0.4" fx="0.75" fy="0.75" spreadmethod="pad">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+      </radialgradient>
+      <radialgradient id="GradientRepeat" cx="0.5" cy="0.5" r="0.4" fx="0.75" fy="0.75" spreadmethod="repeat">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+      </radialgradient>
+      <radialgradient id="GradientReflect" cx="0.5" cy="0.5" r="0.4" fx="0.75" fy="0.75" spreadmethod="reflect">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+      </radialgradient>
+  </defs>
+  <circle cx="60" cy="60" r="45" fill="url(#RadialGradient1)"/> 
+  <rect x="10" y="120" rx="15" ry="15" width="100" height="100" fill="url(#RadialGradient2)"/> 
+  <rect x="190" y="10" rx="15" ry="15" width="100" height="100" fill="url(#GradientPad)"/>
+  <rect x="190" y="120" rx="15" ry="15" width="100" height="100" fill="url(#GradientRepeat)"/>
+  <rect x="320" y="120" rx="15" ry="15" width="100" height="100" fill="url(#GradientReflect)"/>
+
+  <text x="195" y="30" fill="white" font-family="sans-serif" font-size="12pt">Pad</text>
+  <text x="195" y="140" fill="white" font-family="sans-serif" font-size="12pt">Repeat</text>
+  <text x="325" y="140" fill="white" font-family="sans-serif" font-size="12pt">Reflect</text>
+</svg>
+
+<p>id&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x8FD9;&#x4E2A;&#x6E10;&#x53D8;&#x8272;&#x7684;&#x552F;&#x4E00;&#x6807;&#x5FD7;,&#x6BCF;&#x79CD;&#x989C;&#x8272;&#x90FD;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;stop&#x6807;&#x8BB0;&#x5B9A;&#x4E49;,offset&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;,
+stop-color&#x7528;&#x6765;&#x6307;&#x5B9A;&#x989C;&#x8272;,stop-opacity&#x900F;&#x660E;&#x5EA6;&#x3002;cx,cy,r&#x63A7;&#x5236;&#x6E10;&#x53D8;&#x7684;&#x4E2D;&#x5FC3;&#x70B9;&#x3002;fx&#x548C;fy&#x5B9A;&#x4E49;&#x4E86;&#x7126;&#x70B9;&#x3002;
+&#x5982;&#x679C;&#x6CA1;&#x6709;&#x7ED9;&#x51FA;&#x7126;&#x70B9;&#xFF0C;&#x5C06;&#x8BA4;&#x4E3A;&#x8BE5;&#x70B9;&#x4E0E;&#x4E2D;&#x5FC3;&#x70B9;&#x7684;&#x4F4D;&#x7F6E;&#x4E00;&#x81F4;&#x3002;spreadMethod&#x5C5E;&#x6027;&#x63A7;&#x5236;&#x4E86;&#x5F53;&#x6E10;&#x53D8;&#x5230;&#x8FBE;&#x7EC8;&#x70B9;&#x7684;&#x884C;&#x4E3A;&#xFF0C;
+&#x4F46;&#x662F;&#x6B64;&#x65F6;&#x8BE5;&#x5BF9;&#x8C61;&#x5C1A;&#x672A;&#x88AB;&#x586B;&#x5145;&#x989C;&#x8272;&#x3002;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x6709;&#x4E09;&#x4E2A;&#x503C;&#xFF1A;pad&#x3001;reflect&#x6216;repeat&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../chapter4/" class="navigation navigation-prev " aria-label="Previous page: 4.SVG基本属性">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chapter6/" class="navigation navigation-next " aria-label="Next page: 6.SVG文字文本">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"5.SVG渐变色","level":"1.6","depth":1,"next":{"title":"6.SVG文字文本","level":"1.7","depth":1,"path":"chapter6/README.md","ref":"chapter6/README.md","articles":[]},"previous":{"title":"4.SVG基本属性","level":"1.5","depth":1,"path":"chapter4/README.md","ref":"chapter4/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter5/README.md","mtime":"2018-03-11T01:53:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-26T07:07:39.310Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

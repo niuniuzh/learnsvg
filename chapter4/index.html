@@ -1,0 +1,430 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4.SVG基本属性 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chapter5/" />
+    
+    
+    <link rel="prev" href="../chapter3/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter1/">
+            
+                <a href="../chapter1/">
+            
+                    
+                    1.SVG 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter2/">
+            
+                <a href="../chapter2/">
+            
+                    
+                    2.SVG坐标系简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chapter3/">
+            
+                <a href="../chapter3/">
+            
+                    
+                    3.SVG基本形状
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    4.SVG基本属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../chapter5/">
+            
+                <a href="../chapter5/">
+            
+                    
+                    5.SVG渐变色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../chapter6/">
+            
+                <a href="../chapter6/">
+            
+                    
+                    6.SVG文字文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../chapter7/">
+            
+                <a href="../chapter7/">
+            
+                    
+                    7.SVG基础变形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../chapter8/">
+            
+                <a href="../chapter8/">
+            
+                    
+                    8.SVG剪切和遮罩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../chapter9/">
+            
+                <a href="../chapter9/">
+            
+                    
+                    9.SVG滤镜简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >4.SVG基本属性</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="svg&#x57FA;&#x672C;&#x5C5E;&#x6027;">SVG&#x57FA;&#x672C;&#x5C5E;&#x6027;</h1>
+<p>&#x4E0A;&#x4E00;&#x8282;&#x4ECB;&#x7ECD;&#x4E86;&#x57FA;&#x672C;&#x7684;&#x56FE;&#x5F62;&#xFF0C;&#x8FD9;&#x8282;&#x4ECB;&#x7ECD;&#x57FA;&#x672C;&#x7684;&#x5C5E;&#x6027;,&#x600E;&#x4E48;&#x7ED9;&#x76EE;&#x6807;&#x4E0A;&#x8272;&#x586B;&#x5145;&#x3002;&#x4EE5;&#x53CA;&#x5982;&#x4F55;&#x4F7F;&#x7528;&#x5185;&#x8054;CSS&#x6837;&#x5F0F;&#x3002;</p>
+<h2 id="stroke&#x5C5E;&#x6027;">stroke&#x5C5E;&#x6027;</h2>
+<p>stroke&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x7ED9;&#x5B9A;&#x56FE;&#x5F62;&#x5143;&#x7D20;&#x7684;&#x5916;&#x8F6E;&#x5ED3;&#x7684;&#x989C;&#x8272;&#x3002;&#x5B83;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x662F;none&#x3002;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x989C;&#x8272;&#x540D;&#xFF0C;rgba&#x503C;&#x3002;</p>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path stroke="#ff0000" d="M5 20 1215 20"/>
+ <path stroke="green" d="M5 30 1215 30"/>
+</svg>
+
+<h2 id="stroke-linecap&#x5C5E;&#x6027;">stroke-linecap&#x5C5E;&#x6027;</h2>
+<p>&#x5728;&#x5F00;&#x653E;&#x5B50;&#x8DEF;&#x5F84;&#x88AB;&#x8BBE;&#x7F6E;&#x63CF;&#x8FB9;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x7528;&#x4E8E;&#x5F00;&#x653E;&#x81EA;&#x8DEF;&#x5F84;&#x4E24;&#x7AEF;&#x7684;&#x5F62;&#x72B6;.butt | round | square | inherit</p>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <line stroke-linecap="butt" x1="30" y1="30" x2="30" y2="90" stroke="black" stroke-width="20"/>
+  <line stroke-linecap="round" x1="60" y1="30" x2="60" y2="90" stroke="black" stroke-width="20"/>
+  <line stroke-linecap="square" x1="90" y1="30" x2="90" y2="90" stroke="black" stroke-width="20"/>
+</svg>
+
+<h2 id="stroke-width">stroke-width</h2>
+<p>&#x5C5E;&#x6027;&#x6307;&#x5B9A;&#x4E86;&#x5F53;&#x524D;&#x5BF9;&#x8C61;&#x7684;&#x8F6E;&#x5ED3;&#x7684;&#x5BBD;&#x5EA6;&#x3002;&#x5B83;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x662F;1&#x3002;</p>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="30" x2="30" y2="90" stroke-width="20" stroke="red"/>
+  <line x1="60" y1="30" x2="60" y2="90" stroke-width="20%" stroke="yellow"/>
+  <line x1="90" y1="30" x2="90" y2="90" stroke-width="20" stroke="blue"/>
+</svg>
+
+<h1 id="stroke-dasharraystroke-dashoffset">stroke-dasharray&amp;&amp;stroke-dashoffset</h1>
+<p>stroke-dasharray&#x53EF;&#x63A7;&#x5236;&#x7528;&#x6765;&#x63CF;&#x8FB9;&#x7684;&#x70B9;&#x5212;&#x7EBF;&#x7684;&#x56FE;&#x6848;&#x8303;&#x5F0F;,stroke-dasharray&#x5C5E;&#x6027;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x662F;&#x4E00;&#x7EC4;&#x7528;&#x9017;&#x53F7;&#x5206;&#x5272;&#x7684;&#x6570;&#x5B57;&#x7EC4;&#x6210;&#x7684;&#x6570;&#x5217;&#x3002;
+stroke-dashoffset &#x5C5E;&#x6027;&#x6307;&#x5B9A;&#x4E86;dash&#x6A21;&#x5F0F;&#x5230;&#x8DEF;&#x5F84;&#x5F00;&#x59CB;&#x7684;&#x8DDD;&#x79BB;&#x3002;</p>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 10 75 Q 50 10 100 75 T 190 75" stroke="black" stroke-linecap="round" stroke-dasharray="5,10,5" fill="none"/>
+  <path d="M 10 75 L 190 75" stroke="red" stroke-dashoffset="80" stroke-linecap="round" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+</svg>
+
+<h2 id="stroke-linejoin">stroke-linejoin</h2>
+<p>stroke-linejoin&#x5C5E;&#x6027;&#xFF0C;&#x7528;&#x6765;&#x63A7;&#x5236;&#x4E24;&#x6761;&#x63CF;&#x8FB9;&#x7EBF;&#x6BB5;&#x4E4B;&#x95F4;&#xFF0C;&#x7528;&#x4EC0;&#x4E48;&#x65B9;&#x5F0F;&#x8FDE;&#x63A5;.</p>
+<svg width="160" height="280" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <polyline points="40 60 80 20 120 60" stroke="black" stroke-width="20" stroke-linecap="butt" fill="none" stroke-linejoin="miter"/>
+  <polyline points="40 140 80 100 120 140" stroke="black" stroke-width="20" stroke-linecap="round" fill="none" stroke-linejoin="round"/>
+  <polyline points="40 220 80 180 120 220" stroke="black" stroke-width="20" stroke-linecap="square" fill="none" stroke-linejoin="bevel"/>
+</svg>
+
+<h2 id="fill&#x5C5E;&#x6027;">fill&#x5C5E;&#x6027;</h2>
+<p>&#x8BBE;&#x7F6E;&#x5BF9;&#x8C61;&#x5185;&#x90E8;&#x7684;&#x989C;&#x8272;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">svg</span> <span class="hljs-attr">version</span>=<span class="hljs-string">&quot;1.1&quot;</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.w3.org/2000/svg&quot;</span>&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-name">rect</span> <span class="hljs-attr">x</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">y</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;100&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;green&quot;</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
+</code></pre>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+     <rect x="0" y="0" width="100" height="100" fill="green"/>
+</svg>
+
+<h2 id="&#x4F7F;&#x7528;css">&#x4F7F;&#x7528;CSS</h2>
+<p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;CSS&#x6765;&#x6837;&#x5F0F;&#x5316;&#x586B;&#x5145;&#x548C;&#x63CF;&#x8FB9;&#x3002;&#x8BED;&#x6CD5;&#x548C;&#x5728;html&#x91CC;&#x4F7F;&#x7528;CSS&#x4E00;&#x6837;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x4F60;&#x8981;&#x628A;background-color&#x3001;border&#x6539;&#x6210;fill&#x548C;stroke&#x3002;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">svg</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;200&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;200&quot;</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.w3.org/2000/svg&quot;</span> <span class="hljs-attr">version</span>=<span class="hljs-string">&quot;1.1&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">defs</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/css&quot;</span>&gt;</span><span class="xml">&lt;![CDATA[
+       #MyRect {
+         stroke: black;
+         fill: red;
+       }
+       #MyRect:hover {
+   stroke: black;
+   fill: blue;
+ }
+    ]]&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">defs</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">rect</span> <span class="hljs-attr">x</span>=<span class="hljs-string">&quot;10&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;180&quot;</span> <span class="hljs-attr">y</span>=<span class="hljs-string">&quot;10&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;180&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;MyRect&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
+</code></pre>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <style type="text/css"><![CDATA[
+       #MyRect {
+         stroke: black;
+         fill: red;
+       }
+       #MyRect:hover {
+   stroke: black;
+   fill: blue;
+ }
+    ]]></style>
+  </defs>
+  <rect x="10" height="180" y="10" width="180" id="MyRect"/>
+</svg>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../chapter3/" class="navigation navigation-prev " aria-label="Previous page: 3.SVG基本形状">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chapter5/" class="navigation navigation-next " aria-label="Next page: 5.SVG渐变色">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4.SVG基本属性","level":"1.5","depth":1,"next":{"title":"5.SVG渐变色","level":"1.6","depth":1,"path":"chapter5/README.md","ref":"chapter5/README.md","articles":[]},"previous":{"title":"3.SVG基本形状","level":"1.4","depth":1,"path":"chapter3/README.md","ref":"chapter3/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter4/README.md","mtime":"2018-03-04T13:46:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-26T07:07:39.310Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

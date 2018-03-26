@@ -1,0 +1,541 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>3.SVG基本形状 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chapter4/" />
+    
+    
+    <link rel="prev" href="../chapter2/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter1/">
+            
+                <a href="../chapter1/">
+            
+                    
+                    1.SVG 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter2/">
+            
+                <a href="../chapter2/">
+            
+                    
+                    2.SVG坐标系简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    3.SVG基本形状
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter4/">
+            
+                <a href="../chapter4/">
+            
+                    
+                    4.SVG基本属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../chapter5/">
+            
+                <a href="../chapter5/">
+            
+                    
+                    5.SVG渐变色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../chapter6/">
+            
+                <a href="../chapter6/">
+            
+                    
+                    6.SVG文字文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../chapter7/">
+            
+                <a href="../chapter7/">
+            
+                    
+                    7.SVG基础变形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../chapter8/">
+            
+                <a href="../chapter8/">
+            
+                    
+                    8.SVG剪切和遮罩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../chapter9/">
+            
+                <a href="../chapter9/">
+            
+                    
+                    9.SVG滤镜简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >3.SVG基本形状</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="svg&#x57FA;&#x672C;&#x5F62;&#x72B6;">SVG&#x57FA;&#x672C;&#x5F62;&#x72B6;</h1>
+<p>SVG&#x4E2D;&#x63D2;&#x5165;&#x4E00;&#x4E2A;&#x56FE;&#x5F62;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5BF9;&#x5E94;&#x7684;&#x6807;&#x7B7E;&#x3002;&#x4E0D;&#x540C;&#x7684;&#x5143;&#x7D20;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x6807;&#x7B7E;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x5927;&#x5C0F;&#x548C;&#x4F4D;&#x7F6E;&#x3002;</p>
+<ul>
+<li>&#x77E9;&#x5F62; <rect></rect> (point(x,y),(width,height),radius(rx,ry))</li>
+<li>&#x5706;&#x5F62; <circle></circle> (point(cx,cy),r)</li>
+<li>&#x692D;&#x5706; <ellipse></ellipse> (point(cx,cy),(rx,ry))</li>
+<li>&#x76F4;&#x7EBF; <line></line> (point(x1,y1),point(x2,y2))</li>
+<li>&#x6298;&#x7EBF; <polyline></polyline> ([point(x1,y1)])</li>
+<li>&#x591A;&#x8FB9;&#x5F62; <polygon></polygon> ([point(x1,y1)])</li>
+<li>&#x8DEF;&#x5F84; <path></path> (d=[M L]...)</li>
+</ul>
+<svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="10" y="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+  <rect x="60" y="10" rx="10" ry="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+
+  <circle cx="25" cy="75" r="20" stroke="red" fill="transparent" stroke-width="5"/>
+  <ellipse cx="75" cy="75" rx="20" ry="5" stroke="red" fill="transparent" stroke-width="5"/>
+
+  <line x1="10" x2="50" y1="110" y2="150" stroke="orange" fill="transparent" stroke-width="5"/>
+  <polyline points="60 110 65 120 70 115 75 130 80 125 85 140 90 135 95 150 100 145" stroke="orange" fill="transparent" stroke-width="5"/>
+
+  <polygon points="50 160 55 180 70 180 60 190 65 205 50 195 35 205 40 190 30 180 45 180" stroke="green" fill="transparent" stroke-width="5"/>
+
+  <path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>
+</svg>
+
+<h3 id="&#x77E9;&#x5F62;">&#x77E9;&#x5F62;</h3>
+<p>rect&#x6807;&#x7B7E;&#x4F1A;&#x5728;&#x5C4F;&#x5E55;&#x4E0A;&#x7ED8;&#x5236;&#x4E00;&#x4E2A;&#x77E9;&#x5F62;&#xFF0C;(x,y)&#x8868;&#x793A;&#x77E9;&#x5F62;&#x5DE6;&#x4E0A;&#x89D2;&#x70B9;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;(width,height)&#x77E9;&#x5F62;&#x7684;&#x5BBD;&#x548C;&#x957F;
+(rx,ry)x&#x65B9;&#x5411;&#x548C;y&#x65B9;&#x5411;&#x4E0A;&#x7684;&#x5706;&#x89D2;&#x3002;</p>
+<h3 id="&#x5706;&#x5F62;">&#x5706;&#x5F62;</h3>
+<p>circle&#x5143;&#x7D20;&#x4F1A;&#x5728;&#x5C4F;&#x5E55;&#x4E0A;&#x7ED8;&#x5236;&#x4E00;&#x4E2A;&#x5706;&#x5F62;,(cx,cy)&#x5706;&#x5FC3;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;r&#x5706;&#x7684;&#x534A;&#x5F84;</p>
+<h3 id="&#x692D;&#x5706;">&#x692D;&#x5706;</h3>
+<p>ellipse&#x6807;&#x7B7E;&#x4F1A;&#x5728;&#x5C4F;&#x5E55;&#x4E0A;&#x7ED8;&#x5236;&#x4E00;&#x4E2A;&#x692D;&#x5706;&#xFF0C;(rx,ry)&#x692D;&#x5706;&#x7684;&#x4E24;&#x4E2A;&#x534A;&#x5F84;,(cx,cy)&#x692D;&#x5706;&#x4E2D;&#x5FC3;&#x7684;&#x4F4D;&#x7F6E;</p>
+<h3 id="&#x7EBF;&#x6761;">&#x7EBF;&#x6761;</h3>
+<p>line&#x6807;&#x7B7E;&#x7ED8;&#x5236;&#x76F4;&#x7EBF;&#xFF0C;(x1,y1)&#x8D77;&#x70B9;&#x4F4D;&#x7F6E;,(x2,y2)&#x7EC8;&#x70B9;&#x4F4D;&#x7F6E;</p>
+<h3 id="&#x6298;&#x7EBF;">&#x6298;&#x7EBF;</h3>
+<p>polyline&#x6807;&#x7B7E;&#x7ED8;&#x5236;&#x6298;&#x7EBF;&#xFF0C;&#x6298;&#x7EBF;&#x662F;&#x4E00;&#x7EC4;&#x70B9;&#x653E;&#x5728;&#x4E00;&#x4E2A;points&#x5C5E;&#x6027;&#x4E2D;&#x3002;&#x6BCF;&#x4E2A;&#x70B9;&#x5FC5;&#x987B;&#x5305;&#x542B;2&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;x&#x5750;&#x6807;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;y&#x5750;&#x6807;&#x3002;&#x6240;&#x4EE5;&#x70B9;&#x5217;&#x8868; (0,0), (1,1) &#x548C;(2,2)&#x53EF;&#x4EE5;&#x5199;&#x6210;&#x8FD9;&#x6837;&#xFF1A;&#x201C;0 0, 1 1, 2 2&#x201D;</p>
+<h3 id="&#x591A;&#x8FB9;&#x5F62;">&#x591A;&#x8FB9;&#x5F62;</h3>
+<p>polygon&#x662F;&#x4E00;&#x4E2A;&#x95ED;&#x5408;&#x7684;polyline.</p>
+<h3 id="&#x8DEF;&#x5F84;">&#x8DEF;&#x5F84;</h3>
+<p>path&#x662F;SVG&#x57FA;&#x672C;&#x5F62;&#x72B6;&#x4E2D;&#x6700;&#x5F3A;&#x5927;&#x7684;&#x4E00;&#x4E2A;&#xFF0C;&#x5B83;&#x4E0D;&#x4EC5;&#x80FD;&#x521B;&#x5EFA;&#x5176;&#x4ED6;&#x57FA;&#x672C;&#x5F62;&#x72B6;&#xFF0C;&#x8FD8;&#x80FD;&#x521B;&#x5EFA;&#x66F4;&#x591A;&#x5176;&#x4ED6;&#x5F62;&#x72B6;</p>
+<table>
+<thead>
+<tr>
+<th>&#x6307;&#x4EE4;</th>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x540D;&#x79F0;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M</td>
+<td>(x,y)</td>
+<td>moveto</td>
+<td>&#x79FB;&#x52A8;&#x753B;&#x7B14;&#x5230;(x,y)&#x4F4D;&#x7F6E;&#xFF0C;&#x4E0D;&#x7ED8;&#x5236;</td>
+</tr>
+<tr>
+<td>m</td>
+<td>(x,y)</td>
+<td>moveto</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>L</td>
+<td>(x,y)</td>
+<td>lineto</td>
+<td>&#x4ECE;&#x5F53;&#x524D;&#x753B;&#x7B14;&#x6240;&#x5728;&#x4F4D;&#x7F6E;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x76F4;&#x7EBF;&#x5230;&#x6307;&#x5B9A;&#x7684;&#xFF08;x,y&#xFF09;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>l</td>
+<td>(x,y)</td>
+<td>lineto</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>H</td>
+<td>x</td>
+<td>horizontal lineto</td>
+<td>&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x6C34;&#x5E73;&#x76F4;&#x7EBF;&#x5230;&#x53C2;&#x6570;&#x6307;&#x5B9A;&#x7684;x&#x5750;&#x6807;&#x70B9;&#xFF0C;y&#x5750;&#x6807;&#x4E3A;&#x753B;&#x7B14;&#x7684;y&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>h</td>
+<td>x</td>
+<td>horizontal lineto</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>V</td>
+<td>y</td>
+<td>vertical lineto</td>
+<td>&#x4ECE;&#x5F53;&#x524D;&#x4F4D;&#x7F6E;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x5782;&#x76F4;&#x76F4;&#x7EBF;&#x5230;&#x53C2;&#x6570;&#x6307;&#x5B9A;&#x7684;y&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>v</td>
+<td>y</td>
+<td>vertical lineto</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>C</td>
+<td>x1,y1 x2,y2 x,y</td>
+<td>curveto</td>
+<td>&#x4ECE;&#x5F53;&#x524D;&#x753B;&#x7B14;&#x4F4D;&#x7F6E;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x4E09;&#x6B21;&#x8D1D;&#x5179;&#x66F2;&#x7EBF;&#x5230;&#x53C2;&#x6570;&#xFF08;x,y&#xFF09;&#x6307;&#x5B9A;&#x7684;&#x5750;&#x6807;&#x3002;x1&#xFF0C;y1&#x548C;x2,y2&#x662F;&#x66F2;&#x7EBF;&#x7684;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x675F;&#x63A7;&#x5236;&#x70B9;&#xFF0C;&#x7528;&#x4E8E;&#x63A7;&#x5236;&#x66F2;&#x7EBF;&#x7684;&#x5F27;&#x5EA6;</td>
+</tr>
+<tr>
+<td>c</td>
+<td>x1,y1 x2,y2 x,y</td>
+<td>curveto</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>S</td>
+<td>x2,y2 x,y</td>
+<td>shorthand</td>
+<td>&#x4ECE;&#x5F53;&#x524D;&#x753B;&#x7B14;&#x4F4D;&#x7F6E;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x4E09;&#x6B21;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x5230;&#x53C2;&#x6570;&#xFF08;x,y&#xFF09;&#x6307;&#x5B9A;&#x7684;&#x5750;&#x6807;&#x3002;x2,y2&#x662F;&#x7ED3;&#x675F;&#x63A7;&#x5236;&#x70B9;&#x3002;&#x5F00;&#x59CB;&#x63A7;&#x5236;&#x70B9;&#x548C;&#x524D;&#x4E00;&#x6761;&#x66F2;&#x7EBF;&#x7684;&#x7ED3;&#x675F;&#x63A7;&#x5236;&#x70B9;&#x76F8;&#x540C;</td>
+</tr>
+<tr>
+<td>s</td>
+<td>x2,y2 x,y</td>
+<td>shorthand</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>Q</td>
+<td>x1,y1 x,y</td>
+<td>&#x4E8C;&#x6B21;&#x65B9;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;</td>
+<td>&#x4ECE;&#x5F53;&#x524D;&#x753B;&#x7B14;&#x4F4D;&#x7F6E;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x4E8C;&#x6B21;&#x65B9;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x5230;&#x53C2;&#x6570;&#xFF08;x,y&#xFF09;&#x6307;&#x5B9A;&#x7684;&#x5750;&#x6807;&#x3002;x1,y1&#x662F;&#x63A7;&#x5236;&#x70B9;&#xFF0C;&#x7528;&#x4E8E;&#x63A7;&#x5236;&#x66F2;&#x7EBF;&#x7684;&#x5F27;&#x5EA6;</td>
+</tr>
+<tr>
+<td>q</td>
+<td>x1,y1 x,y</td>
+<td>&#x4E8C;&#x6B21;&#x65B9;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>T</td>
+<td>x,y</td>
+<td>&#x5E73;&#x6ED1;&#x7684;&#x4E8C;&#x6B21;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;</td>
+<td>&#x4ECE;&#x5F53;&#x524D;&#x753B;&#x7B14;&#x4F4D;&#x7F6E;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x4E8C;&#x6B21;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x5230;&#x53C2;&#x6570;&#xFF08;x,y&#xFF09;&#x6307;&#x5B9A;&#x7684;&#x5750;&#x6807;&#x3002;&#x63A7;&#x5236;&#x70B9;&#x88AB;&#x5047;&#x5B9A;&#x4E3A;&#x6700;&#x540E;&#x4E00;&#x6B21;&#x4F7F;&#x7528;&#x7684;&#x63A7;&#x5236;&#x70B9;</td>
+</tr>
+<tr>
+<td>t</td>
+<td>x,y</td>
+<td>&#x5E73;&#x6ED1;&#x7684;&#x4E8C;&#x6B21;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>A</td>
+<td>rx,ry x-axis-rotation large-arc-flag,sweepflag x,y</td>
+<td>&#x692D;&#x5706;&#x5F27;&#x7EBF;</td>
+<td>&#x4ECE;&#x5F53;&#x524D;&#x753B;&#x7B14;&#x4F4D;&#x7F6E;&#x5F00;&#x59CB;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x692D;&#x5706;&#x5F27;&#x7EBF;&#x5230;&#xFF08;x,y&#xFF09;&#x6307;&#x5B9A;&#x7684;&#x5750;&#x6807;&#x3002;rx&#x548C;ry&#x5206;&#x522B;&#x4E3A;&#x692D;&#x5706;&#x5F27;&#x7EBF;&#x6C34;&#x5E73;&#x548C;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x4E0A;&#x7684;&#x534A;&#x5F84;&#x3002;x-axis-rotation&#x6307;&#x5B9A;&#x5F27;&#x7EBF;&#x7ED5;x&#x8F74;&#x65CB;&#x8F6C;&#x7684;&#x5EA6;&#x6570;&#x3002;&#x5B83;&#x53EA;&#x5728;rx&#x548C;ry&#x7684;&#x503C;&#x4E0D;&#x76F8;&#x540C;&#x65F6;&#x6709;&#x6548;&#x679C;&#x3002;large-arc-flag&#x662F;&#x5927;&#x5F27;&#x6807;&#x5FD7;&#x4F4D;&#xFF0C;&#x53D6;&#x503C;0&#x6216;1&#xFF0C;&#x7528;&#x4E8E;&#x51B3;&#x5B9A;&#x7ED8;&#x5236;&#x5927;&#x5F27;&#x8FD8;&#x662F;&#x5C0F;&#x5F27;&#x3002;sweep-flag&#x7528;&#x4E8E;&#x51B3;&#x5B9A;&#x5F27;&#x7EBF;&#x7ED8;&#x5236;&#x7684;&#x65B9;&#x5411;</td>
+</tr>
+<tr>
+<td>a</td>
+<td>rx,ry x-axis-rotation large-arc-flag,sweepflag x,y</td>
+<td>&#x692D;&#x5706;&#x5F27;&#x7EBF;</td>
+<td>&#x540C;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>&#x65E0;</td>
+<td>&#x95ED;&#x5408;&#x8DEF;&#x5F84;</td>
+<td>&#x4ECE;&#x7ED3;&#x675F;&#x70B9;&#x7ED8;&#x5236;&#x4E00;&#x6761;&#x76F4;&#x7EBF;&#x5230;&#x5F00;&#x59CB;&#x70B9;&#xFF0C;&#x95ED;&#x5408;&#x8DEF;&#x5F84;</td>
+</tr>
+<tr>
+<td>z</td>
+<td>&#x65E0;</td>
+<td>&#x95ED;&#x5408;&#x8DEF;&#x5F84;</td>
+<td>&#x540C;&#x4E0A;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">svg</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;500px&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;200px&quot;</span> <span class="hljs-attr">version</span>=<span class="hljs-string">&quot;1.1&quot;</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.w3.org/2000/svg&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M10 10 L10 90&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;none&quot;</span> <span class="hljs-attr">stroke</span>=<span class="hljs-string">&quot;green&quot;</span> <span class="hljs-attr">stroke-width</span>=<span class="hljs-string">&quot;5&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M10 90 L 30 10&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;none&quot;</span> <span class="hljs-attr">stroke</span>=<span class="hljs-string">&quot;red&quot;</span> <span class="hljs-attr">stroke-width</span>=<span class="hljs-string">&quot;4&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M30 10 H 60 V 90&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;none&quot;</span> <span class="hljs-attr">stroke</span>=<span class="hljs-string">&quot;yellow&quot;</span> <span class="hljs-attr">stroke-width</span>=<span class="hljs-string">&quot;5&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M60 90 C20 40, 40 20, 90 10&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;transparent&quot;</span> <span class="hljs-attr">stroke</span>=<span class="hljs-string">&quot;orange&quot;</span> <span class="hljs-attr">stroke-width</span>=<span class="hljs-string">&quot;5&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M90 10 S120 40 140 90&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;transparent&quot;</span> <span class="hljs-attr">stroke</span>=<span class="hljs-string">&quot;green&quot;</span> <span class="hljs-attr">stroke-width</span>=<span class="hljs-string">&quot;5&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M140 90 Q80 50 140 10&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;transparent&quot;</span> <span class="hljs-attr">stroke</span>=<span class="hljs-string">&quot;red&quot;</span> <span class="hljs-attr">stroke-width</span>=<span class="hljs-string">&quot;4&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M140 10 Q140 50 180 90 T200 180&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;transparent&quot;</span> <span class="hljs-attr">stroke</span>=<span class="hljs-string">&quot;yellow&quot;</span> <span class="hljs-attr">stroke-width</span>=<span class="hljs-string">&quot;4&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M240 50 A45 45 0 0 1 285 95 L285 50 Z&quot;</span> <span class="hljs-attr">fill</span>=<span class="hljs-string">&quot;green&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
+</code></pre>
+<svg width="500px" height="200px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 10 L10 90" fill="none" stroke="green" stroke-width="5"/>
+  <path d="M10 90 L 30 10" fill="none" stroke="red" stroke-width="4"/>
+  <path d="M30 10 H 60 V 90" fill="none" stroke="yellow" stroke-width="5"/>
+  <path d="M60 90 C20 40, 40 20, 90 10" fill="transparent" stroke="orange" stroke-width="5"/>
+  <path d="M90 10 S120 40 140 90" fill="transparent" stroke="green" stroke-width="5"/>
+  <path d="M140 90 Q80 50 140 10" fill="transparent" stroke="red" stroke-width="4"/>
+  <path d="M140 10 Q140 50 180 90 T200 180" fill="transparent" stroke="yellow" stroke-width="4"/>
+  <path d="M240 50 A45 45 0 0 1 285 95 L285 50 Z" fill="green"/>
+</svg>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../chapter2/" class="navigation navigation-prev " aria-label="Previous page: 2.SVG坐标系简介">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chapter4/" class="navigation navigation-next " aria-label="Next page: 4.SVG基本属性">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"3.SVG基本形状","level":"1.4","depth":1,"next":{"title":"4.SVG基本属性","level":"1.5","depth":1,"path":"chapter4/README.md","ref":"chapter4/README.md","articles":[]},"previous":{"title":"2.SVG坐标系简介","level":"1.3","depth":1,"path":"chapter2/README.md","ref":"chapter2/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/README.md","mtime":"2018-03-04T02:28:49.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-26T07:07:39.310Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
